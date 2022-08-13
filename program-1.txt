@@ -1,0 +1,60 @@
+#include<stdio.h>
+
+int main()
+
+{
+
+int i,j,n;
+
+char c1='A';
+ 
+char c2='a'; 
+ 
+printf("Enter n value:");
+ 
+scanf("%d",&n);
+
+for(i=1;i<=n;i++)
+
+{
+
+for(j=1;j<=i;j++)
+
+{
+
+printf("%c%c\t",c1,c2);
+
+c1++;
+ 
+c2++;    
+
+}
+        
+
+printf("\n");
+    
+
+}
+    
+
+return 0;
+
+
+}
+
+
+Output-1
+--------
+Enter n value:5
+Aa
+Bb Cc
+Dd Ee Ff 
+Gg Hh Ii Jj
+Kk Ll Mm Nn Oo
+
+Output-2
+--------
+Enter n value:3
+Aa
+Bb Cc
+Dd Ee Ff 
